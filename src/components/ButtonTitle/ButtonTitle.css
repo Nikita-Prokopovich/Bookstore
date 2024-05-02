@@ -1,0 +1,66 @@
+.header-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
+}
+#burger{
+    display: none;
+}
+#user{
+    background-image: url("../../assets/userregular.svg");
+}
+#shop{
+    background-image: url("../../assets/shopicon.svg");
+}
+#heart{
+    background-image: url("../../assets/heartregular.svg");
+}
+#heart,
+#user,
+#shop{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+@media(max-width: 780px) {
+    #heart,
+    #user,
+    .button-search{
+        display: none;
+    }
+    .header-icon {
+        margin-left: 0;
+        margin-top: 10px;
+        padding-left: 30px;
+    }
+    #burger{
+        display: inline-block;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        background-image: url("../../assets/bars-solid.svg");
+        width: 20px;
+        height: 20px;
+    }
+    .header__name {
+        margin-top: 10px;
+    }
+
+    .header-form {
+        margin-top: 20px;
+    }
+
+    .input-main {
+        display: none;
+    }
+
+    .button_s {
+        display: none;
+    }
+}

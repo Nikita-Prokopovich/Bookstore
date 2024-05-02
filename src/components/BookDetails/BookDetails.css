@@ -1,0 +1,162 @@
+.book-details-image{
+    width: 300px;
+    height: 350px;
+}
+.image-box{
+    width: 544px;
+    height: 472px;
+    background-color: #FEE9E2;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.book-details-wrapper{
+    width: 1120px;
+    margin: 0 auto;
+    
+}
+.book-details-price{
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+}
+.book-details-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.book-details{
+    width: 448px;
+    height: 472px;
+    border-top: 1px solid #E7E7E7;
+}
+.book-information{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.price-and-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.star-in-card{
+    color: #4C4B5E;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button__add-to-cart{
+    width: 448px;
+    height: 56px;
+    background-color: #313037;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 50px;
+    cursor: pointer;
+    border: none;
+    font-weight: 400;
+}
+
+.left-side > p {
+    font-family: "Helios";
+    font-size: 16px;
+    line-height: 32px;
+    color: #A8A8A8;
+}
+.right-side > p {
+    font-family: "Helios";
+    font-size: 16px;
+    line-height: 32px;
+    color: black;
+}
+
+
+.tabs-container {
+    width: 1120px;
+    border-bottom: 1px solid #DADADA;
+    margin-top: 50px;
+}
+
+.tabs {
+    display: flex;
+    width: 496px;
+    height: 48px;
+}
+
+.tabs_item {
+    border: 0;
+    background-color: none;
+    cursor: pointer;
+    padding: 0px 40px 24px 40px;
+    font-family: 'Helios';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #313037;
+}
+
+.tabs_item_border-color {
+    border-bottom: 2px solid black;
+}
+
+.tabs_item_hover:hover {
+    color: rgb(142, 78, 26);
+}
+
+.tabs_item_color {
+    color: gray;
+}
+
+.book-details-description > p{
+    margin-top: 50px;
+    font-family: 'Helios';
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.share-button-container{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.button-facebook{
+    background-image: url("../../assets/facebook.svg");
+}
+.button-twitter{
+    background-image: url("../../assets/twitter.svg");
+}
+.button-share{
+    background-image: url("../../assets/More-Horizontal.svg");
+}
+.button-facebook,
+.button-twitter,
+.button-share{
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 24px;
+    height: 24px;
+    padding-right: 30px;
+}
+@media(max-width: 1120px) {
+    .book-details-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .book-details-wrapper{
+        width: 100%;
+    }
+    .tabs-container{
+        width: 100%;
+    }
+}

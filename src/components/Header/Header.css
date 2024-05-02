@@ -1,0 +1,131 @@
+
+.header-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper{
+    width: 1120px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #A8A8A8;
+}
+.header__name{
+    width: 138px;
+    height: 29px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+body{
+    background-color: #F3F3F3;
+}
+.header-form{
+    margin: 0 auto;
+    display: flex;
+    
+} 
+
+.header-search-block{
+    height: 80px;
+    
+}
+
+@media(max-width: 760px) {
+    .header__name,
+    .input-main{
+        padding-left: 20px;}
+}
+
+.button-search{
+    background-image: url("../../assets/magnifyingglasssolid.svg");
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    border: none;
+    background-size: 100%;
+    background-color: transparent;
+    outline: none;
+    position: relative !important;
+    top: 30px !important;
+    right: 35px !important;
+    
+}
+
+/* .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px; 
+    height: 100%;
+    background-color: #f0f0f0;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    transform: translateX(100%);
+}
+
+.sidebar-content {
+    padding: 20px;
+}
+.sidebar.open {
+    transform: translateX(0);
+} */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 368px; 
+    height: 100%;
+    background-color: #f0f0f0;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+    transform: translateX(100%);
+    z-index: 20;
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+  }
+  
+  
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    display: none;
+  }
+  
+  .overlay.active {
+    display: block;
+  }
+
+.button-close{
+    background-image: url("../../assets/Group_1596.svg");
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 24px;
+    height: 24px;
+}
+

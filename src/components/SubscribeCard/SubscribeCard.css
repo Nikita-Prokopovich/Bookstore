@@ -1,0 +1,78 @@
+.subscribe-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+}
+.subscribe-wrapper{
+    width: 1120px;
+    height: 288px;
+    margin: 0 auto;
+    background-color: #ede2fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-box{
+    margin: 0 auto;
+}
+
+.subscribe-input-name{
+    font-size: 18px;
+    font-family: 'Din Pro';
+    color: #A8A8A8;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+.subscribe-input{
+    outline: none;
+    font-family: 'Din Pro';
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    width: 845px;
+    height: 56px;
+    border: none;
+}
+.subscribe-form{
+    margin: 0 auto;
+    display: flex;
+}
+.subscribe__title{
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #313037;
+    margin: 0;
+}
+.subscribe__button{
+    width: 147px;
+    height: 56px;
+    background-color: #313037;
+    color: white;
+    font-family: "Bebas Neue";
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 64px;
+    cursor: pointer;
+    border: none;
+    font-weight: 300;
+    
+}
+
+@media(max-width: 1200px) {
+    .subscribe-wrapper{
+        padding: 0 20px; 
+        width: 90%;           
+    }
+    .subscribe-input{
+        width: 98%;
+    }
+    .subscribe__button{
+        margin-top: 66px;
+    }
+}
